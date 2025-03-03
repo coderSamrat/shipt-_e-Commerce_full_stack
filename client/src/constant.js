@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://localhost:9883';
+export const BASE_URL = 'https://shipt-e-commerce-full-stack.onrender.com';
