@@ -27,7 +27,7 @@ const AddProduct = () => {
             formData.append('image', image);
 
             try {
-                  const response = await fetch('http://localhost:9883/api/v1/product/upload/upload-image', {
+                  const response = await fetch('https://shipt-e-commerce-full-stack.onrender.com/api/v1/product/upload/upload-image', {
                         method: 'POST',
                         body: formData,
                   });
