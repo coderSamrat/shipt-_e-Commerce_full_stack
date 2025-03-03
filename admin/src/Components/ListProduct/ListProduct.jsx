@@ -7,7 +7,7 @@ const ListProduct = () => {
 
       const response = async () => {
             try {
-                  const response = await fetch('http://localhost:9883/api/v1/product/get-all-product', {
+                  const response = await fetch('https://shipt-e-commerce-full-stack.onrender.com/api/v1/product/get-all-product', {
                         method: 'GET',
                   });
                   const data = await response.json();
